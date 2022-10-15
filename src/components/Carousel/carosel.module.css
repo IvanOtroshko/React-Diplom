@@ -1,0 +1,55 @@
+.carousel {
+  margin: 0 auto;
+  overflow: hidden;
+  /* max-width: 900px; */
+  position: relative;
+
+
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 60px;
+  height: 400px;
+  width: 1280px;
+
+}
+
+.carousel_inner {
+  white-space: nowrap;
+  transition: ease 1s;
+
+}
+
+.carousel_item {
+  display: inline-block;
+  width: 100%;
+
+}
+
+.carousel_controlLeft {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  display: inline-block;
+  position: absolute;
+  height: 50px;
+  width: 70px;
+  top: calc(50% - 25px);
+  color: #f3f3f3;
+  cursor: pointer;
+  left: 0;
+}
+
+.carousel_controlRight {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  display: inline-block;
+  position: absolute;
+  height: 50px;
+  width: 70px;
+  top: calc(50% - 25px);
+  color: #f3f3f3;
+  cursor: pointer;
+  right: 0;
+}
