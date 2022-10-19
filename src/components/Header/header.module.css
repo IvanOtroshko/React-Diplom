@@ -1,0 +1,40 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10%;
+  background-color: black;
+  height: 90px;
+}
+
+.logo {
+  cursor: pointer;
+  text-decoration: none;
+  color: red;
+  font-weight: 900;
+}
+
+.nav__links a,
+.overlay__content a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+.nav__links {
+  list-style: none;
+  display: flex;
+}
+
+.nav__links li {
+  padding: 0px 20px;
+}
+
+.nav__links li a {
+  transition: color 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+  color: red;
+}
