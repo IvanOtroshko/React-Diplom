@@ -1,5 +1,6 @@
 
 import { Carousel } from "../../components/Carousel/carousel";
+import { Footer } from "../../components/Footer";
 import { Header } from "../../components/Header";
 
 export const slides = [
@@ -14,6 +15,7 @@ export const Main = () => {
         <div>
             <Header />
             <Carousel slides={slides} width={1280} />
+            <Footer/>
         </div>
     );
 };
