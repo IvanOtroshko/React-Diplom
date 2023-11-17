@@ -5,6 +5,8 @@ header {
   padding: 5px 10%;
   background-color: black;
   height: 90px;
+
+
 }
 
 .logo {
@@ -12,6 +14,7 @@ header {
   text-decoration: none;
   color: red;
   font-weight: 900;
+
 }
 
 .nav__links a,

@@ -7,9 +7,8 @@ export const Header = () => {
         <nav>
             <ul className={style.nav__links}>
                 <li><a href="/films">Films</a></li>
-                <li><a href="#">Stan Lee</a></li>
-                <li><a href="#">Characters</a></li>
-                <li><a href="#">Games</a></li>
+                <li><a href="/StanLee">Stan Lee</a></li>
+                <li><a href="/Characters">Characters</a></li>
             </ul>
         </nav>
     </header>

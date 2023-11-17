@@ -1,12 +1,13 @@
 import { Header } from "../../components/Header";
-import { Movie } from "../../components/MovieCard";
+import { Character } from "../../components/Characters";
 import { Footer } from "../../components/Footer";
 
-export const Films = () => {
+
+export const Characters = () => {
     return (
         <div>
            <Header/>
-           <Movie/>
+           <Character/>
            <Footer/>
         </div>
     );

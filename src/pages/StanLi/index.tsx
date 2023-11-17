@@ -1,12 +1,13 @@
 import { Header } from "../../components/Header";
-import { Movie } from "../../components/MovieCard";
+import { StanLi } from "../../components/Stan_li";
 import { Footer } from "../../components/Footer";
 
-export const Films = () => {
+
+export const Creator = () => {
     return (
         <div>
            <Header/>
-           <Movie/>
+           <StanLi/>
            <Footer/>
         </div>
     );
