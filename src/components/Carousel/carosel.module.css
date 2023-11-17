@@ -1,7 +1,6 @@
 .carousel {
   margin: 0 auto;
   overflow: hidden;
-  /* max-width: 900px; */
   position: relative;
 
 
@@ -13,6 +12,7 @@
   margin-top: 60px;
   height: 400px;
   width: 1280px;
+  margin-bottom: 40px;
 
 }
 
@@ -25,7 +25,10 @@
 .carousel_item {
   display: inline-block;
   width: 100%;
+}
 
+.carousel_item img {
+  border-radius: 20px;
 }
 
 .carousel_controlLeft {

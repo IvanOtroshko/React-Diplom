@@ -23,7 +23,6 @@ export const Footer = () => {
   	 		<div className={style.footer_col}>
   	 			<h4>Online shop</h4>
   	 			<ul>
-  	 				<li><a href="#">Games</a></li>
   	 				<li><a href="#">comics</a></li>
   	 				<li><a href="#">Video Games</a></li>
   	 			</ul>
